@@ -33,13 +33,13 @@
 .color-scheme,
 .service-icon,
 .step-no .no-inner,
-.site-name:hover,
+.logo:hover,
 .project-details .details-list li .strong,
 .social-icons ul li a:hover {
     color:#7b2f1b;
 }
 
-.site-name span,
+.logo span,
 .photo-overlay h4 {
     background-color: #7b2f1b;
 }

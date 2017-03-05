@@ -43,14 +43,14 @@ body {
 }
 
 a {
-	color: #cccccc;
+	color: #96a4a5;
 	text-decoration: none;
 }
 
 a:hover, a:focus, .btn:focus {
     text-decoration: none;
 	outline: none;
-	color: #6c6b6b
+	color: #6c6b6b     /* --------------- цвет ссылки при наведении мыши --------------- */
 }
 
 input:focus, textarea:focus {
@@ -103,7 +103,7 @@ li {
 
 /* --------------- Common Classes --------------- */
 .row {
-	margin-top: -40px;
+	margin-top: -60px;
 }
 .center {
 	text-align: center;
@@ -184,9 +184,7 @@ font-weight: 700;
 }
 
 /* --------------- Pre Loader Styles --------------- */
-#logo {
-	margin-top: -15px;
-}
+
 #blink {
 	animation: blink 5s linear infinite;
 	font-weight: bold;
@@ -249,14 +247,13 @@ font-weight: 700;
 }
 
 .scroll-up  {
-	position: absolute;
-	left: 50%;
-	margin-top: 42px;
+	display: block;
 	border: 1px solid #fff;
 	border-radius: 50%;
 	height: 35px;
 	width: 35px;
 	display: block;
+	padding: 0px;
 
 }
 /* --------------- Button Styles --------------- */
@@ -310,7 +307,7 @@ font-weight: 700;
 
 .sticky-section {
 	width: 100%;
-	height: 80px;
+	height: 53px;
 	z-index: 1025;
 	transition: all .3s ease-in;
 	background: rgba(0,0,0, .15);
@@ -320,31 +317,23 @@ font-weight: 700;
 	background: rgba(0,0,0, .6);
 }
 
-.site-name {
-	color: #fff;
-	font-family: 'Bangers', cursive;
-	font-size: 24px;
-	padding: 8px 15px;
-	letter-spacing: 1px;
+.logo {
+	padding: 6px 30px;
+
 }
 
-.site-name span {
+.logo span {
 	color: #fff;
 	padding: 0 13px;
-	font-weight: 400;
-	height: 35px;
-	width: 35px;
 	display: inline-block;
 	margin-right: 3px;
-	font-size: 28px;
-	line-height: 35px;
 }
 
 .nav-hold {
 	left: 0;
 	right: 0;
 	top: 0;
-	padding-top: 13px;
+	padding-top: 1px;
 	z-index: 1025;
 }
 
@@ -376,7 +365,7 @@ color:#ccc !important;
 }
 
 .home {
-	min-height: 750px;
+	min-height: 770px;
 }
 
 .well-come {
@@ -499,6 +488,7 @@ left: calc(50% - 110px);
 	position:relative;
 	background-color: #333333;
 	color: #e5e5e5;
+	min-height: 770px;
 }
 
 .container.services {
@@ -814,6 +804,10 @@ margin-right: 8px;
 	color:#e5e5e5;
 }
 
+#contacts {
+	margin-bottom: -100px;
+}
+
 .testimonials-wrap {
 	position:relative;
 }
@@ -821,6 +815,7 @@ margin-right: 8px;
 .testimonials {
 	padding-top: 120px;
 	padding-bottom: 120px;
+	min-height: 770px;
 }
 
 .testimonials .comment {
@@ -1092,18 +1087,17 @@ margin-right: 8px;
 /* ================ Footer Section ================ */
 
 .social-buttons {
-	padding: 100px;
+	padding: 10px;
 	text-align: center;
 	background: #101010;
 }
 .social-button {
 	display: inline-block;
 	background-color: #fff;
-	width: 50px;
-	height: 50px;
-	line-height: 50px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
 	margin: 0 10px;
-	margin-top: 20px;
 	text-align: center;
 	position: relative;
 	overflow: hidden;
@@ -1180,4 +1174,7 @@ margin-right: 8px;
 
 .fa-map-marker, .fa-phone, .fa-envelope, .fa-skype{
 	margin-right: 10px;
+}
+.scroll-down, .scroll-up {
+	color: #16e0cd;
 }

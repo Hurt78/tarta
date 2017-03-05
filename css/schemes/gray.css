@@ -39,13 +39,13 @@ border-color:#7F8C8D;
 .color-scheme,
 .service-icon,
 .step-no .no-inner,
-.site-name:hover,
+.logo:hover,
 .project-details .details-list li .strong,  
 .social-icons ul li a:hover {
 color:#7F8C8D;
 }
 
-.site-name span,
+.logo span,
 .photo-overlay h4 {
 background-color: #7F8C8D;
 }

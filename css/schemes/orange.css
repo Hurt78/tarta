@@ -33,13 +33,13 @@ border-color:#E67E22;
 .color-scheme,
 .service-icon,
 .step-no .no-inner,
-.site-name:hover,
+.logo:hover,
 .project-details .details-list li .strong,  
 .social-icons ul li a:hover {
 color:#E67E22;
 }
 
-.site-name span,
+.logo span,
 .photo-overlay h4 {
 background-color: #E67E22;
 }
