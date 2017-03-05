@@ -260,6 +260,11 @@ font-weight: 700;
 
 }
 /* --------------- Button Styles --------------- */
+
+#order {
+	background: #075b14;
+	color: rgb(247, 242, 242);
+}
 .button-line {
 	background: transparent;
 	display: inline-block;
@@ -414,7 +419,7 @@ left: calc(50% - 110px);
 }
 
 .baraja {              /* размер одной карты из колоды */
-	margin-top: -22px;
+	margin-top: 40px;
 	width: 300px;
 	height: 540px;
 }
@@ -875,6 +880,7 @@ margin-right: 8px;
 	color:#666;
 }
 
+
 .container.pricing {
 	padding-top: 120px;
 	padding-bottom: 120px;
@@ -942,17 +948,28 @@ margin-right: 8px;
 .single-pricing .package-features li {
 	margin: 0px;
 	padding-bottom: 9px;
-	padding-top: 9px;
+	padding-top: 6px;
 	border-bottom: 1px solid #EEE;
 	color: #666;
+	text-align: left;
 }
 
 .single-pricing .package-features li span {
-	margin-right: 8px;
+	margin-right: 10px;
+	margin-left: 10px;
+
 }
 
 .single-pricing .sign-up {
 	padding-bottom: 15px;
+
+}
+.fa-check {
+	color: #076a14;
+
+}
+.fa-minus  {
+	color: #f40047;
 }
 
 
@@ -1161,3 +1178,6 @@ margin-right: 8px;
 	background-color: #00a0dc;
 }
 
+.fa-map-marker, .fa-phone, .fa-envelope, .fa-skype{
+	margin-right: 10px;
+}
