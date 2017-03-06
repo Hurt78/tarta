@@ -231,23 +231,8 @@ font-weight: 700;
 /* =============== HTML element styles =============== */
 
 /* =============== fa-angle styles =============== */
-.scroll-down {
-	position: absolute;
-	left: 50%;
-	bottom: 65px;
-	border: 1px solid #fff;
-	border-radius: 50%;
-	height: 35px;
-	width: 35px;
-	margin-left: -15px;
-	display: block;
-	padding: 2px;
-	text-align: center;
-	z-index: -1;
-}
-
 .scroll-up  {
-	display: block;
+
 	border: 1px solid #fff;
 	border-radius: 50%;
 	height: 35px;
@@ -1179,6 +1164,6 @@ margin-right: 8px;
 .fa-map-marker, .fa-phone, .fa-envelope, .fa-skype{
 	margin-right: 10px;
 }
-.scroll-down, .scroll-up {
-	color: #16e0cd;
-}
+.scroll-up {
+	 color: #16e0cd;
+ }
